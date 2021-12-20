@@ -9,19 +9,19 @@ Pour simplifier, on consid´erera des machines qui effectuent un calcul, avec un
 fin du calcul. Les ´etats seront not´es par des lettres majuscules et A sera l’´etat initial. L’alphabet d’entr´ee est
 {0, 1}, l’alphabet de travail {0, 1, } et la bande est semi-infinie vers la droite. Dans la configuration initiale, la
 tˆete de lecture est positionnée a gauche de la bande.
-Question 1 : Proposer une structure de données MT qui permet de représenter une machine de Turing
+           Question 1 : Proposer une structure de données MT qui permet de représenter une machine de Turing
 ainsi que sa configuration (état courant, état de la bande, position de la tete de lecture). Ecrire une fonction 
 qui initialise une structure MT à partir d’un mot d’entrée et d’un fichier contenant une description d’une
 machine de Turing.
-Question 2 : Ecrire une fonction qui étant donné une machine de Turing, lui fait exécuter un pas de
+            Question 2 : Ecrire une fonction qui étant donné une machine de Turing, lui fait exécuter un pas de
 calcul.
-Question 3 : Ecrire une fonction qui prend comme argument un mot et une machine de Turing et qui ´
+            Question 3 : Ecrire une fonction qui prend comme argument un mot et une machine de Turing et qui ´
 simule le calcul de la machine sur le mot jusqu’à atteindre l’état final. Bravo, vous avez réalisé une machine
 universelle.
-Question 4 : Modifier la fonction précédente pour que, à chaque pas de simulation, la configuration de
+            Question 4 : Modifier la fonction précédente pour que, à chaque pas de simulation, la configuration de
 la machine s’affiche.
-Question 5 : Vous écrirez le code de trois machines de Turing (non triviales) de votre choix dans trois
+            Question 5 : Vous écrirez le code de trois machines de Turing (non triviales) de votre choix dans trois
 fichiers, et elles devront ˆetre simulées quand l’utilisateur tape make test.
-Question 7 : Ecrire une fonction qui lit dans un fichier le code d’une machine de Turing qui travaille 
+            Question 7 : Ecrire une fonction qui lit dans un fichier le code d’une machine de Turing qui travaille 
 sur l’alphabet d’entrée {a, b, c, d} et qui écrit dans un autre fichier le code d’une machine équivalente sur
 l’alphabet {0, 1} avec le codage code(a) = 00, code(b) = 01, code(c) = 10, code(d) = 11.
