@@ -1,6 +1,6 @@
 # MachineDeTuring
 
-      1 Simulation de l’ex´ecution d’une machine de Turing
+   1 Simulation de l’ex´ecution d’une machine de Turing
 Le code du projet est a faire en C.
 On utilisera le langage de description de machine du site https://turingmachinesimulator.com/. Vous
 pouvez restreindre ce langage pour vous simplifier le travail, par exemple interdire des espaces ou des sauts de
