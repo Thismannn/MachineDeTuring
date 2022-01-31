@@ -9,7 +9,7 @@ Pour simplifier, on considèrera des machines qui effectuent un calcul, avec un 
 fin du calcul. Les ´etats seront not´es par des lettres majuscules et A sera l’état initial. L’alphabet d’entr´ee est
 {0, 1}, l’alphabet de travail {0, 1, } et la bande est semi-infinie vers la droite. Dans la configuration initiale, la
 tˆete de lecture est positionnée a gauche de la bande.
-           *Question 1 : Proposer une structure de données MT qui permet de représenter une machine de Turing
+           * Question 1 : Proposer une structure de données MT qui permet de représenter une machine de Turing
 ainsi que sa configuration (état courant, état de la bande, position de la tete de lecture). Ecrire une fonction 
 qui initialise une structure MT à partir d’un mot d’entrée et d’un fichier contenant une description d’une
 machine de Turing.
@@ -25,6 +25,6 @@ fichiers, et elles devront ˆetre simulées quand l’utilisateur tape make test
 
          2 Réduction entre différents modèles de machine de Turing
          
-   Question 6 : Ecrire une fonction qui lit dans un fichier le code d’une machine de Turing qui travaille 
+   * `Question 6` : Ecrire une fonction qui lit dans un fichier le code d’une machine de Turing qui travaille 
 sur l’alphabet d’entrée {a, b, c, d} et qui écrit dans un autre fichier le code d’une machine équivalente sur
 l’alphabet {0, 1} avec le codage code(a) = 00, code(b) = 01, code(c) = 10, code(d) = 11.
