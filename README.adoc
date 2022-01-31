@@ -1,6 +1,6 @@
 = MachineDeTuring
 
-      = 1 Simulation de l’exécution d’une machine de Turing
+      ==Simulation de l’exécution d’une machine de Turing
       
 Le code du projet est a faire en C.
 On utilisera le langage de description de machine du site https://turingmachinesimulator.com/. Vous
@@ -24,8 +24,8 @@ la machine s’affiche.
             * `Question 5` : Vous écrirez le code de trois machines de Turing (non triviales) de votre choix dans trois
 fichiers, et elles devront ˆetre simulées quand l’utilisateur tape make test.
 
-        =2 Réduction entre différents modèles de machine de Turing
+        ==Réduction entre différents modèles de machine de Turing
          
-   *`Question 6` : Ecrire une fonction qui lit dans un fichier le code d’une machine de Turing qui travaille 
+   * `Question 6` : Ecrire une fonction qui lit dans un fichier le code d’une machine de Turing qui travaille 
 sur l’alphabet d’entrée {a, b, c, d} et qui écrit dans un autre fichier le code d’une machine équivalente sur
 l’alphabet {0, 1} avec le codage code(a) = 00, code(b) = 01, code(c) = 10, code(d) = 11.
