@@ -1,0 +1,7 @@
+A,a,A,a,>
+A,b,B,b,>
+B,a,C,a,>
+B,b,A,b,>
+C,a,B,a,>
+C,b,C,b,>
+A,c,D,c,-
